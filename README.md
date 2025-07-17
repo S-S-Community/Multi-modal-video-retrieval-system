@@ -343,13 +343,10 @@ The system can detect and track these object types:
 
 1. Install development dependencies:
    ```bash
-   pip install -r requirements_streamlit.txt
+   pip install -r requirements.txt
    ```
 
-2. Run tests:
-   ```bash
-   python -m pytest
-   ```
+
 
 ## 🤝 Contributing
 
