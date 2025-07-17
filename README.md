@@ -351,10 +351,6 @@ The system can detect and track these object types:
    python -m pytest
    ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -434,10 +430,3 @@ ls input_videos/
 ls output_snapshots/
 ```
 
-For more detailed troubleshooting, see [STREAMLIT_README.md](STREAMLIT_README.md).
-
-## 📞 Support
-
-- Create an issue for bug reports
-- Check existing issues for solutions
-- Review the documentation for setup help
