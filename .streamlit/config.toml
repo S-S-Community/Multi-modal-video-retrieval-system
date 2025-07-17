@@ -1,0 +1,91 @@
+[global]
+
+# If false, the file watcher will not watch files.
+developmentMode = false
+
+[logger]
+
+# Level of logging: 'error', 'warning', 'info', or 'debug'.
+level = "info"
+
+[client]
+
+# Whether to enable st.cache.
+caching = true
+
+# If false, makes your Streamlit script not run as the result of
+# any widget interaction.
+runOnSave = true
+
+# The address where the server will listen for client and browser connections.
+toolbarMode = "minimal"
+
+[server]
+
+# List of folders that should not be watched for changes. This
+# impacts both "Run on Save" and @st.cache.
+folderWatchBlacklist = ['output_snapshots', 'input_videos']
+
+# Change the type of file watcher used by Streamlit, or turn it off
+# completely.
+fileWatcherType = "auto"
+
+# Symmetric key used to produce signed cookies. If deploying on multiple replicas,
+# ensure that they all share the same secret.
+cookieSecret = "surveillance_analysis_system_secret_key_2024"
+
+# If false, will attempt to open a browser window on start.
+headless = false
+
+# Automatically rerun script when the file is modified on disk.
+runOnSave = true
+
+# The address where the server will listen for client and browser connections.
+address = "localhost"
+
+# The port where the server will listen for browser connections.
+port = 8501
+
+# The base path for the URL where Streamlit should be reachable from.
+baseUrlPath = ""
+
+# Enables automatic HTTPS redirect.
+enableCORS = false
+
+# Enables automatic XSS protection.
+enableXsrfProtection = true
+
+# Max size, in megabytes, for files uploaded with the file_uploader.
+maxUploadSize = 2000
+
+# Max size, in megabytes, of messages that can be sent via the WebSocket connection.
+maxMessageSize = 200
+
+# Enables support for websocket compression.
+enableWebsocketCompression = false
+
+[browser]
+
+# Internet address where users should point their browsers in order to
+# connect to the app. Can be IP address or DNS name and path.
+serverAddress = "localhost"
+
+# Whether to send usage statistics to Streamlit.
+gatherUsageStats = false
+
+[theme]
+
+# Primary accent color for interactive elements.
+primaryColor = "#007bff"
+
+# Background color for the main content area.
+backgroundColor = "#ffffff"
+
+# Background color used for the sidebar and most interactive widgets.
+secondaryBackgroundColor = "#f8f9fa"
+
+# Color used for almost all text.
+textColor = "#262730"
+
+# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
+font = "sans serif"

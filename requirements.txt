@@ -1,0 +1,16 @@
+# IMPORTANT: Install PyTorch with CUDA support first:
+# pip install torch>=2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+ultralytics
+opencv-python
+numpy
+Pillow
+ffmpeg-python
+tqdm
+requests
+pinecone
+streamlit
+transformers
+sentence-transformers
+python-dotenv
+plotly

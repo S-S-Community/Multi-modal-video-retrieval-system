@@ -1,0 +1,33 @@
+Looking in indexes: https://download.pytorch.org/whl/cu118
+Collecting torch
+  Downloading https://download.pytorch.org/whl/cu118/torch-2.7.0%2Bcu118-cp310-cp310-win_amd64.whl.metadata (29 kB)
+Collecting torchvision
+  Downloading https://download.pytorch.org/whl/cu118/torchvision-0.22.0%2Bcu118-cp310-cp310-win_amd64.whl.metadata (6.3 kB)
+Collecting torchaudio
+  Downloading https://download.pytorch.org/whl/cu118/torchaudio-2.7.0%2Bcu118-cp310-cp310-win_amd64.whl.metadata (6.8 kB)
+Requirement already satisfied: filelock in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from torch) (3.18.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from torch) (4.12.2)
+Collecting sympy>=1.13.3 (from torch)
+  Downloading https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: networkx in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from torch) (3.3)
+Requirement already satisfied: jinja2 in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from torch) (3.1.6)
+Requirement already satisfied: fsspec in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from torch) (2024.6.1)
+Requirement already satisfied: numpy in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from torchvision) (1.26.4)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from torchvision) (11.0.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from sympy>=1.13.3->torch) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\isaac\anaconda3\envs\ai\lib\site-packages (from jinja2->torch) (2.1.5)
+Downloading https://download.pytorch.org/whl/cu118/torch-2.7.0%2Bcu118-cp310-cp310-win_amd64.whl (2908.4 MB)
+   ---------------------------------------- 2.9/2.9 GB 21.2 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/cu118/torchvision-0.22.0%2Bcu118-cp310-cp310-win_amd64.whl (5.5 MB)
+   ---------------------------------------- 5.5/5.5 MB 56.2 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/cu118/torchaudio-2.7.0%2Bcu118-cp310-cp310-win_amd64.whl (4.1 MB)
+   ---------------------------------------- 4.1/4.1 MB 61.7 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl (6.2 MB)
+   ---------------------------------------- 6.2/6.2 MB 63.7 MB/s eta 0:00:00
+Installing collected packages: sympy, torch, torchvision, torchaudio
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.13.1
+    Uninstalling sympy-1.13.1:
+      Successfully uninstalled sympy-1.13.1
+
+Successfully installed sympy-1.13.3 torch-2.7.0+cu118 torchaudio-2.7.0+cu118 torchvision-0.22.0+cu118
